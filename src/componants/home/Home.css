@@ -1,0 +1,18 @@
+.Home{
+    height: 100vh;
+    background-color: black;
+    color: black;   
+}
+
+.Home-Landing{
+    background-color: black;
+    color: whitesmoke;
+    height: 100vh;
+    text-align: center;
+    /* position: absolute; */
+    top: 50%;
+}
+
+.Home-Logo{
+    width: 20%;
+}
