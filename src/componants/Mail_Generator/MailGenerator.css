@@ -1,0 +1,7 @@
+.Landing{
+    /* height: 100vh; */
+    background-color: black;
+    display:grid;
+    justify-content:center;
+    /* align-items:center; */
+}

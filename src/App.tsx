@@ -2,7 +2,10 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
+import Contact from './componants/contact/Contact';
 import Home from './componants/home/Home';
+// import Landing from './componants/home/Landing/Landing';
+import MailGenerator from './componants/Mail_Generator/MailGenerator';
 import Maintanance from './componants/maintainance/Maintanance';
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
         <Routes>
             <Route path="/maintain" element= {<Maintanance />} />
             <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path='/mail_generator' element={<MailGenerator/>} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const targetTime = new Date("2022-06-01").getTime();
 
-export const Countdown = () => {
+function Countdown() {
   const [currentTime, setCurrentTime] = useState(Date.now());
 
   const timeBetween = targetTime - currentTime;
@@ -30,3 +30,5 @@ export const Countdown = () => {
     </>
   );
 };
+
+export default Countdown;

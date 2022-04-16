@@ -3,9 +3,9 @@ import {motion} from "framer-motion";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import NavBar from "./NavBar";
+
 import "./Home.css";
-import {Countdown} from "../Countdown/Countdown";
+import Countdown from "../Countdown/Countdown";
 
 function Home(){
     return (
@@ -20,6 +20,7 @@ function Home(){
                     </div>
                     <div className="flex-item">
                     <h2>Conevenience at your fingertips</h2>
+                    <a href="/mail_generator" className="btn btn-lg bg-light">Mail Generator</a>
                     </div>
                     </motion.div>
                     &nbsp;
@@ -30,6 +31,7 @@ function Home(){
                     <div className="flex-item">
                     <h1 className="h2 text-muted"> <Countdown /></h1>
                     </div>
+                    
                 </div>               
                 
             </div>
