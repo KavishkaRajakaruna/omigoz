@@ -20,7 +20,7 @@ function Home(){
                     </div>
                     <div className="flex-item">
                     <h2>Conevenience at your fingertips</h2>
-                    <a href="/mail_generator" className="btn btn-lg bg-light">Mail Generator</a>
+                    <a href="/mail_generator" className="btn btn-lg bg-light">Mail Alias Generator</a>
                     </div>
                     </motion.div>
                     &nbsp;
