@@ -18,7 +18,7 @@ function Feeder() {
             setFetching(true);
             const result = await axios.get('http://localhost:5000/api/v1/feeder');   
             setFeeds(result.data);
-            // console.log(result.data)
+            console.log(typeof(result.data))
             setFetching(false);
         };
         fetchData();
