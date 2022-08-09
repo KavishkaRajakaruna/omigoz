@@ -7,6 +7,7 @@ import Home from './componants/home/Home';
 // import Landing from './componants/home/Landing/Landing';
 import MailGenerator from './componants/Mail_Generator/MailGenerator';
 import Maintanance from './componants/maintainance/Maintanance';
+import Feeder from './componants/feeder/Feeder';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path='/mail_generator' element={<MailGenerator/>} />
+            <Route path="/feeder" element={<Feeder />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -19,3 +19,8 @@
 .Home-Logo{
     width: 20%;
 }
+
+.Landing-Secion{
+    display: flex;
+    height: 100vh;
+}

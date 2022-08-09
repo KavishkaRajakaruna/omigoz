@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function NavBar(){
     return (
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
-        <Navbar.Brand href="/maintain">
+        <Navbar.Brand href="/">
         <Logo
           width="35"
           height="35"
